@@ -3,10 +3,10 @@ import Navbar from "./Components/Navbar/Navbar.jsx";
 import About from "./Components/About/About.jsx";
 import ProjectsBody from "./Components/Projects/ProjectsBody.jsx";
 import { ProjectData } from "./Components/Projects/ProjectData";
+import Skills from "./Components/Skills/Skills";
 
 function App() {
 	const data = ProjectData;
-	console.log(data);
 
 	return (
 		<div className="App">
@@ -19,6 +19,7 @@ function App() {
 				description={data.description}
 				link={data.github}
 			/>
+			<Skills />
 		</div>
 	);
 }
