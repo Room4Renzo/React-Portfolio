@@ -1,12 +1,12 @@
-import Blackjack from "../../Images/Blackjack.png";
-import Clouds from "../../Images/Clouds.png";
-import CodeQuiz from "../../Images/CodeQuiz.png";
-import Portfolio from "../../Images/Portfolio.png";
-import NYT from "../../Images/NYTimes.png";
-import Prework from "../../Images/Prework.png";
-import Revision from "../../Images/Revision.png";
-import RPS from "../../Images/RPS.png";
-import PasswordGen from "../../Images/PasswordGen.png";
+import Blackjack from "../../images/Blackjack.png";
+import Clouds from "../../images/Clouds.png";
+import CodeQuiz from "../../images/CodeQuiz.png";
+import Portfolio from "../../images/Portfolio.png";
+import NYT from "../../images/NYTimes.png";
+import Prework from "../../images/Prework.png";
+import Revision from "../../images/Revision.png";
+import RPS from "../../images/RPS.png";
+import PasswordGen from "../../images/PasswordGen.png";
 
 export const ProjectData = [
 	{
