@@ -1,0 +1,20 @@
+.About {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	height: 20%;
+	background-color: grey;
+	color: blue;
+	padding: 0 1rem;
+	text-align: center;
+}
+
+#aboutMe {
+	display: flex;
+	align-items: flex-end;
+	justify-content: flex-end;
+	height: 100%;
+	width: 75%;
+	font-size: 24px;
+}
