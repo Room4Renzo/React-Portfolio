@@ -1,0 +1,32 @@
+.Navbar {
+	background-color: #0004ff;
+	height: 80px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	font-size: 1.2rem;
+	position: sticky;
+	color: white;
+}
+
+ul {
+	display: flex;
+	list-style: none;
+	justify-content: space-evenly;
+	align-items: flex-end;
+}
+
+li {
+	margin: 0 1rem;
+	color: white;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+a:hover {
+	color: #0004ff;
+	background-color: white;
+}
