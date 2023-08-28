@@ -6,13 +6,16 @@ function ProjectsBody() {
 		<div className="ProjectsBody">
 			{ProjectData.map((project) => {
 				return (
-					<div className="ProjectCard">
+					<div
+						className="ProjectsCard"
+						id={project.id}
+					>
 						<h3>{project.title}</h3>
 						<img src={project.image} />
 						<p>{project.description}</p>
-						<button>
-							<a href={project.github}>GitHub</a>
-						</button>
+						<a href={project.github}>
+							<button>Check Me Out!</button>
+						</a>
 					</div>
 				);
 			})}

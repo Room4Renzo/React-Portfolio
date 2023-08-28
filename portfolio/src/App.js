@@ -6,21 +6,14 @@ import { ProjectData } from "./Components/Projects/ProjectData.jsx";
 import Skills from "./Components/Skills/Skills.jsx";
 import Contact from "./Components/Contact/Contact.jsx";
 import Footer from "./Components/Footer/Footer.jsx";
+import Projects from "./Components/Projects/Projects.jsx";
 
 function App() {
-	const data = ProjectData;
-
 	return (
 		<div className="App">
 			<Navbar />
 			<About />
-			<ProjectsBody
-				key={data.id}
-				title={data.title}
-				image={data.img}
-				description={data.description}
-				link={data.github}
-			/>
+			<Projects />
 			<Skills />
 			<Contact />
 			<Footer />
